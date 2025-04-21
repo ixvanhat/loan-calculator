@@ -14,13 +14,13 @@ Calculates:
 ## Usage
 Run the script with appropriate arguments. E.g.:
 
-# Calculate annuity payment
+### Calculate annuity payment
 python loan_calculator.py --type=annuity --principal=10000 --periods=12 --interest=10
 
-# Calculate number of months needed to repay:
+### Calculate number of months needed to repay:
 python loan_calculator.py --type=annuity --principal=10000 --payment=10464 --interest=10
 
-# Calculate differentiated payments
+### Calculate differentiated payments
 python loan_calculator.py --type=diff --principal=100000 --periods=12 --interest=10
 
 ------------------------------------------------------------------------------------------------------------------------------------------
